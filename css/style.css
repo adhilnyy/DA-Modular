@@ -1892,7 +1892,7 @@ header.side-header .social-icons-2 a:hover {
 
 header.header-mobile {
 	position: relative;
-	background: #111;
+	background: rgb(13, 69, 86);
 	z-index: 1000;
 }
 
@@ -11822,3 +11822,10 @@ header.force-header-mobile #mainmenu li ul.mega li ul {
    50% , 74% {background-image: url("/assets/img/index/bedroom-pic-1.png");}
    75% , 100% {background-image: url("/assets/img/index/bedroom-pic-1.png");}
 } */
+
+@media (max-width:778px) {
+	.de_light .wm{
+		display: none;
+	}
+	
+}
