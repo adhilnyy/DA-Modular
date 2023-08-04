@@ -38,26 +38,6 @@
            <!-- header begin -->
              
            <header>
-            <div class="info">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="column">Working Hours Monday - Friday <span
-                                    class="id-color"><strong>08:00-16:00</strong></span></div>
-                            
-                            <div class="column social">
-                                <a href="#"><i class="fa fa-facebook"></i></a>
-                                <a href="#"><i class="fa fa-twitter"></i></a>
-                                <a href="#"><i class="fa fa-rss"></i></a>
-                                <a href="#"><i class="fa fa-google-plus"></i></a>
-                                <a href="#"><i class="fa fa-envelope-o"></i></a>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
@@ -78,29 +58,86 @@
                                 <nav class="md-flex">
                                     <ul id="mainmenu">
                                         <li><a href="index.html">Home<span></span></a></li>
-                                        <li><a href="#">Interior Design</a>
+                                        <li><a href="about-us.html">About us</a>
                                            
                                         </li>
-                                        <li><a href="#">Exterior Design</a>
-                                           
-                                        </li>
-                                        <li><a href="residential-design.html">Services</a>
-                                           
-                                        </li>
-                                        
+                                    
+                                        <li><a href="2d-and-3d-design.html">Services</a>
+                                            <ul class="mega">
+                                                <li>
+                                                    <div class="container-fluid">
+                                                        <div class="menu-content">
+                                                            <div class="row">
+                                                                <div class="col-lg-3 col-md-12">
+                                                                    <ul>
+                                                                        
+                                                                        <li><a href="2d-and-3d-design.html">2D plan & 3D
+                                                                                Design</a></li>
+                                                                        <li><a href="bar-counters.html">Bar Counters</a></li>
+                                                                        <li><a href="modular-kitchens.html">Modular
+                                                                                Kitchens</a></li>
+                                                                        <li><a href="breakfast-counter.html">Breakfast Counter</a></li>
+                                                                        <li><a href="tv-units.html">TV Units</a></li>
+                                                                    </ul>
+                                                                </div>
 
-                                        </li>
+                                                                <div class="col-lg-3 col-md-12">
+                                                                    <ul>
+                                                                        <li><a href="wash-units.html">Wash Units</a></li>
+                                                                        <li><a href="dining-tables.html">Dining Tables</a></li>
+                                                                        <li><a href="crockery shelves.html">Crockery Shelves</a></li>
+                                                                        <li><a href="cots.html">Cots</a></li>
+                                                                        <li><a href="wardrobes.html">Wardrobes</a></li>
+                                                                        
+                                                                    </ul>
+                                                                </div>
 
+                                                                <div class="col-lg-3 col-md-12">
+                                                                    <ul>
+                                                                        
+                                                                        <li><a href="chairs.html">Chairs</a></li>
+                                                                        <li><a href="study-tables.html">Study Tables</a></li>
+                                                                        <li><a href="dressing-units.html">Dressing Units</a></li>
+                                                                        <li><a href="side-tables.html">Side Tables</a></li>
+                                                                        <li><a href="all-kind-cushion.html">All Kind Of Cushion</a></li>
+                                                                    </ul>
+                                                                </div>
+
+                                                                <div class="col-lg-3 col-md-12">
+                                                                    <ul>
+                                                                        <li><a href="false-ceilings.html">False Ceilings And Flooring</a></li>
+                                                                        <li><a href="glass-work.html">Glass Work</a></li>
+                                                                        <li><a href="fabrication.html">Fabrication</a></li>
+                                                                        <li><a href="painting.html">Putty , Polish And Painting</a></li>
+                                                                        <li><a href="electrical-plumbing.html">Electical And Plumbing</a></li>
+                                                                        
+                                                                    </ul>
+                                                                </div>
+
+                                                                
+
+
+
+                                                                <div class="clearfix"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                           
+                                        </li>
+                                        <li><a href="assets/img/DA-BROCHURE.pdf" >Brochure</a></li>
 
                                         <li><a href="contact.html">Contact</a>
                                         </li>
+                                        
                                     </ul>
                                 </nav>
 
                             </div>
 
                             <div class="md-flex-col col-extra">
-                                <a href="#" class="btn-on-header btn-line">Get Quote</a>
+                                <a href="contact.html" class="btn-on-header btn-line">Get Quote</a>
                             </div>
                         </div>
                     </div>
@@ -135,8 +172,8 @@
             <div class="container py-3">
                 <div class="row">
 
-                    <div class="col-md-8 ">
-                        <form name="contactForm" id='contact_form' action="/mail.php" method="post">
+                    <div class="col-md-8 py-3">
+                        <form name="contactForm" id='contact_form'  method="POST" data-netlify="true">
                             <div class="row">
                             	<div class="col-md-12 mb10">
                             		<h3>Send Us Message</h3>
@@ -165,9 +202,9 @@
                                 </div>
 
                                 <div class="col-md-12">
-                                    <div class="g-recaptcha" data-sitekey="6LdW03QgAAAAAJko8aINFd1eJUdHlpvT4vNKakj6"></div>
+                                    
                                     <p id='submit' class="mt20">
-                                        <input type='submit' id='send_message' onclick="return validation()" value='Submit Form' class="btn btn-line">
+                                        <input type='submit' id='send_message' onclick="return" value='Submit Form' class="btn btn-line">
                                     </p>
                                 </div>
                             </div>
@@ -180,7 +217,7 @@
 
                     </div>
 
-                    <div id="sidebar" class="col-md-4">
+                    <div id="sidebar" class="col-md-4 py-3">
 
                         <div class="widget widget_text">
                             <h3>Contact Info</h3>
@@ -201,7 +238,7 @@
 					<div class="row">
 						<div class="col-md-12">
 							<div class="map-container map-fullwidth">
-								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7913970.943563233!2d69.43763004031162!3d14.413114666705676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba65bfd8f52518b%3A0x1d490a2ba5c1e006!2sDA%20MODULAR%20MANUFACTURES!5e0!3m2!1sen!2sin!4v1690525451597!5m2!1sen!2sin&z=9" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+								<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3913.6851236029033!2d75.81249637389564!3d11.210916751031563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba65bfd8f52518b%3A0x1d490a2ba5c1e006!2sDA%20MODULAR%20MANUFACTURES!5e0!3m2!1sen!2sin!4v1691053906788!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 							</div>
 						</div>
 					</div>
@@ -209,6 +246,15 @@
           
         </div>
 
+        <ul class="list-unstyled quick-links">
+
+            <li><a href="https://wa.me/917736807888" ><img src="assets/img/icon-whatsapp.png" alt="whatsapp"
+                        title="Whatsapp"></a></li>
+            <li><a href="tel:+917736807888" class="d-block"><img src="assets/img/icon-call.png" alt="call"
+                        title="Call"></a></li>
+        </ul>
+
+        <!-- footer begin -->
         <footer>
             <div class="container">
                 <div class="row">
@@ -218,25 +264,33 @@
                     
                     <div class="col-lg-2 offset-lg-1">
                         <div class="widget widget_recent_post">
-                            <h3>Quick Links</h3>
+                            <h3>Services</h3>
                             <ul>
-                                <li><a href="#">Staircase</a></li>
-                                <li><a href="#">Gypsum Celing</a></li>
-                                <li><a href="#">Painting</a></li>
-                                <li><a href="#">Texture Painting and Design</a></li>
+                                <li ><a href="2d-and-3d-design.html">2D plan & 3D
+                                    Design</a></li>                            
+                                    <li><a href="modular-kitchens.html">Modular Kitchens</a></li>
+                                    <li><a href="tv-units.html">TV Units</a></li>
+                                    <li><a href="wash-units.html">Wash Units</a></li>
+                                    <li><a href="dining-tables.html">Dining Tables</a></li>
+
                             </ul>
                         </div>
                     </div>
 
-
-
                     <div class="col-lg-2">
                         <div class="widget widget_recent_post">
-                            <h3>Quick Links</h3>
+                            <h3>Services</h3>
                             <ul>
-                                <li><a href="residential-design.html">Residential Design</a></li>
-                                <li><a href="#">Modular Kitchen</a></li>
-                                <li><a href="#">Bedroom</a></li>
+                              
+                                <li><a href="study-tables.html">Study Tables</a></li>
+                            
+                          
+                                <li><a href="all-kind-cushion.html">All Kind Of Cushion</a></li>
+                                
+                                <li><a href="glass-work.html">Glass Work</a></li>
+                                <li><a href="fabrication.html">Fabrication</a></li>
+                 
+                                <li><a href="electrical-plumbing.html">Electical And Plumbing</a></li>
                             </ul>
                         </div>
                     </div>
@@ -276,6 +330,7 @@
             <a href="#" id="back-to-top"></a>
         </footer>
         <!-- footer close -->
+        <!-- footer close -->
         </div>
     </div>
 
@@ -313,36 +368,6 @@
         </script>
 
 
-<!-- <script>
-    jQuery(document).ready(function() {
-       
-        jQuery("#slider-revolution").revolution({
-            sliderType: "standard",
-            sliderLayout: "fullwidth",
-            delay: 5000,
-            navigation: {
-                arrows: {
-                    enable: true
-                },
-                bullets: {
-                    enable: false,
-                    style: 'hermes'
-                },
-
-            },
-            parallax: {
-                type: "mouse",
-                origo: "slidercenter",
-                speed: 2000,
-                levels: [2, 3, 4, 5, 6, 7, 12, 16, 10, 50],
-            },
-            spinner: "off",
-            gridwidth: 1140,
-            gridheight: 700,
-            disableProgressBar: "on"
-        });
-    });
-</script> -->
 
 <script>
     jQuery(document).ready(function() {
@@ -387,33 +412,6 @@
     });
 }</script>
 
-<script type="text/javascript">
-    function validation(){
-        var alpha=/^[a-zA-z]+$/;
-        var num=/^[0-9]+$/;
-
-        var name=document.getElementById("name")
-
-        var phone=document.getElementById("phone")
-
-        if(!name.value.match(alpha)){
-            alert("Enter name properly");
-            name.focus();
-            return false;
-        }
-        else if(!phone.value.match(num)){
-            alert("Enter valid Number");
-            phone.focus();
-            return false;
-        }
-        else{
-            return true;
-        }
-        
-
-    }
-
-</script>
 
 
 </body>

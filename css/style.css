@@ -261,9 +261,7 @@ blockquote.s1 {
 /* 
 	Section Background (bg.css)
 /* general  for subheader */
-#subheader{
-	background:url(../assets/img/beadcrumb-bg.png)top fixed;
-	}
+
 	
 	/* background settings for page subheader */
 	.page-projects #subheader{background-image:url(../images/background/subheader-1.jpg);}
@@ -10845,7 +10843,9 @@ header.force-header-mobile #mainmenu li ul.mega li ul {
 	}
 
 	#subheader h1 {
-		margin: 60px 0 30px 0;
+		/* margin: 0 0 30px 0;
+		padding-top: 20px ; */
+		font-size: 20px;
 	}
 
 	#subheader span {
@@ -11834,4 +11834,32 @@ header.force-header-mobile #mainmenu li ul.mega li ul {
 	h2.style-4{
 		font-size: 30px;
 	}
+}
+
+.service-img{
+	max-width: 650px;
+	max-height: 400px;
+	margin-bottom: 80px;
+	
+}
+.service-img-1{
+	max-width: 650px;
+	max-height: 400px;
+	margin-bottom: 10px;
+	
+}
+@media (max-width:768px) {
+	.service-img{
+		max-width: 550px;
+		max-height: 340px;
+		margin-bottom: 35px;
+		
+	}
+	.service-img-1{
+		max-width: 550px;
+		max-height: 340px;
+		
+		
+	}
+	
 }
